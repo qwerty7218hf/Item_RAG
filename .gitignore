@@ -1,0 +1,19 @@
+# 配置信息
+.env
+.env.*
+!.env.example
+
+# 运行时临时数据
+knowledge/temp_data/
+knowledge/processor/import_process/import_temp_dir/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.log
